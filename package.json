@@ -1,0 +1,25 @@
+{
+    "name": "fabilla-pdf-service-js-client",
+    "version": "1.0.0",
+    "description": "Cliente JS para interactuar con el Fabilla PDF Service",
+    "main": "lib/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/TRUEDATAMX/FabillaPDFServiceJSClient.git"
+    },
+    "keywords": [
+        "pdf",
+        "service",
+        "client"
+    ],
+    "author": "Claudio Jose Gonzalez Arriaga",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "true-auth-sdk": "https://github.com/TRUEDATAMX/true-auth-sdk-js.git",
+        "trueauth": "github:TRUEDATAMX/true-auth-sdk-js"
+    }
+}
