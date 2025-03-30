@@ -1,10 +1,25 @@
 {
     "name": "fabilla-pdf-service-js-client",
     "version": "1.0.0",
-    "type": "module",
+    "description": "Client for the authentication service enabling the generation of PDFs",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": ""
+    },
+    "keywords": [
+        "pdf",
+        "service",
+        "client",
+        "trueauth",
+        "js"
+    ],
     "author": "Claudio Jose Gonzalez Arriaga",
+    "license": "MIT",
     "dependencies": {
-        "axios": "^1.8.4",
-        "true-auth-sdk": "github:TRUEDATAMX/true-auth-sdk-js"
+        "axios": "^0.27.2",
+        "dotenv": "^16.0.0",
+        "true-auth-sdk-js": "https://github.com/TRUEDATAMX/true-auth-sdk-js.git",
+        "trueauth": "github:TRUEDATAMX/true-auth-sdk-js"
     }
 }
