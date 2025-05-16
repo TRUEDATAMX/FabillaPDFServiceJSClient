@@ -1,2 +1,2 @@
-const PDFserviceclient = require('./lib/PDFserviceclient');
-module.exports = PDFserviceclient;
+const PDFServiceclient = require('./lib/PDFserviceclient');
+module.exports = PDFServiceclient;
